@@ -9,81 +9,81 @@ public class Employee {
     @Column(name = "id")
     private long id;
 
-    @Column(name = "SSN")
-    private long SSN;
+    @Column(name = "ssn")
+    private String ssn;
 
-    @Column(name = "FNAME")
-    private String FNAME;
+    @Column(name = "fname")
+    private String fname;
 
-    @Column(name = "LNAME")
-    private String LNAME;
+    @Column(name = "lname")
+    private String lname;
 
-    @Column(name = "BDATE")
-    private String BDATE;
+    @Column(name = "bdate")
+    private String bdate;
 
-    @Column(name = "ADDRESS")
-    private String ADDRESS;
+    @Column(name = "address")
+    private String address;
 
-    @Column(name = "SEX")
-    private String SEX;
+    @Column(name = "sex")
+    private String sex;
 
-    @Column(name = "SALARY")
-    private long SALARY;
+    @Column(name = "salary")
+    private String salary;
 
-    @Column(name = "SUPERSSN")
-    private long SUPERSSN;
+    @Column(name = "superssn")
+    private String superssn;
 
-    @Column(name = "DNO")
-    private long DNO;
+    @Column(name = "dno")
+    private String dno;
 
-    @Column(name = "PNUMBER")
-    private long PNUMBER;
+    @Column(name = "pnumber")
+    private String pnumber;
 
-    @Column(name = "HOURS")
-    private long HOURS;
+    @Column(name = "hours")
+    private String hours;
 
-    @Column(name = "DNUMBER")
-    private long DNUMBER;
+    @Column(name = "dnumber")
+    private String dnumber;
 
-    @Column(name = "DNAME")
-    private String DNAME;
+    @Column(name = "dname")
+    private String dname;
 
-    @Column(name = "MGRSTARTDATE")
-    private String MGRSTARTDATE;
+    @Column(name = "mgrstartdate")
+    private String mgrstartdate;
 
-    @Column(name = "DLOCATION")
-    private String DLOCATION;
+    @Column(name = "dlocation")
+    private String dlocation;
 
-    @Column(name = "PNAME")
-    private String PNAME;
+    @Column(name = "pname")
+    private String pname;
 
-    @Column(name = "PLOCATION")
-    private String PLOCATION;
+    @Column(name = "plocation")
+    private String plocation;
 
     public Employee() {
         super();
     }
 
 
-    public Employee(long SSN, String FNAME, String LNAME, String BDATE, String ADDRESS, String SEX, long SALARY, long SUPERSSN, long DNO, long PNUMBER, long HOURS, long DNUMBER, String DNAME, String MGRSTARTDATE, String DLOCATION, String PNAME, String PLOCATION) {
+    public Employee(String ssn, String fname, String lname, String bdate, String address, String sex, String salary, String superssn, String dno, String pnumber, String hours, String dnumber, String dname, String mgrstartdate, String dlocation, String pname, String plocation) {
         super();
-        this.SSN = SSN;
-        this.FNAME = FNAME;
-        this.LNAME = LNAME;
-        this.BDATE = BDATE;
-        this.ADDRESS = ADDRESS;
-        this.SEX = SEX;
-        this.SALARY = SALARY;
-        this.SUPERSSN = SUPERSSN;
-        this.DNO = DNO;
-        this.PNUMBER = PNUMBER;
-        this.HOURS = HOURS;
-        this.DNUMBER = DNUMBER;
-        this.DNAME = DNAME;
-        this.MGRSTARTDATE = MGRSTARTDATE;
-        this.DLOCATION = DLOCATION;
-        this.PNAME = PNAME;
-        this.PLOCATION = PLOCATION;
+        this.ssn=ssn;
+        this.fname=fname;
+        this.lname=lname;
+        this.bdate=bdate;
+        this.address=address;
+        this.sex=sex;
+        this.salary=salary;
+        this.superssn=superssn;
+        this.dno=dno;
+        this.pnumber=pnumber;
+        this.hours=hours;
+        this.dnumber=dnumber;
+        this.dname=dname;
+        this.mgrstartdate=mgrstartdate;
+        this.dlocation=dlocation;
+        this.pname=pname;
+        this.plocation=plocation;
     }
 
     public long getId() {
@@ -94,140 +94,140 @@ public class Employee {
         this.id = id;
     }
 
-    public long getSSN() {
-        return SSN;
+    public String getSsn() {
+        return ssn;
     }
 
-    public void setSSN(long SSN) {
-        this.SSN = SSN;
+    public void setSSN(String SSN) {
+        this.ssn = ssn;
     }
 
-    public String getFNAME() {
-        return FNAME;
+    public String getFname() {
+        return fname;
     }
 
     public void setFNAME(String FNAME) {
-        this.FNAME = FNAME;
+        this.fname = fname;
     }
 
-    public String getLNAME() {
-        return LNAME;
+    public String getLname() {
+        return lname;
     }
 
     public void setLNAME(String LNAME) {
-        this.LNAME = LNAME;
+        this.lname = lname;
     }
 
     public String getBDATE() {
-        return BDATE;
+        return bdate;
     }
 
     public void setBDATE(String BDATE) {
-        this.BDATE = BDATE;
+        this.bdate = bdate;
     }
 
     public String getADDRESS() {
-        return ADDRESS;
+        return address;
     }
 
     public void setADDRESS(String ADDRESS) {
-        this.ADDRESS = ADDRESS;
+        this.address = address;
     }
 
     public String getSEX() {
-        return SEX;
+        return sex;
     }
 
-    public void setSEX(String SEX) {
-        this.SEX = SEX;
+    public void setSex(String SEX) {
+        this.sex = sex;
     }
 
-    public long getSALARY() {
-        return SALARY;
+    public String getSalary() {
+        return salary;
     }
 
-    public void setSALARY(long SALARY) {
-        this.SALARY = SALARY;
+    public void setSalary(String salary) {
+        this.salary = salary;
     }
 
-    public long getSUPERSSN() {
-        return SUPERSSN;
+    public String getSuperssn() {
+        return superssn;
     }
 
-    public void setSUPERSSN(long SUPERSSN) {
-        this.SUPERSSN = SUPERSSN;
+    public void setSuperssn(String superssn) {
+        this.superssn = superssn;
     }
 
-    public long getDNO() {
-        return DNO;
+    public String getDno() {
+        return dno;
     }
 
-    public void setDNO(long DNO) {
-        this.DNO = DNO;
+    public void setDno(String dno) {
+        this.dno = dno;
     }
 
-    public long getPNUMBER() {
-        return PNUMBER;
+    public String getPnumber() {
+        return pnumber;
     }
 
-    public void setPNUMBER(long PNUMBER) {
-        this.PNUMBER = PNUMBER;
+    public void setPnumber(String pnumber) {
+        this.pnumber = pnumber;
     }
 
-    public long getHOURS() {
-        return HOURS;
+    public String getHours() {
+        return hours;
     }
 
-    public void setHOURS(long HOURS) {
-        this.HOURS = HOURS;
+    public void setHours(String hours) {
+        this.hours = hours;
     }
 
-    public long getDNUMBER() {
-        return DNUMBER;
+    public String getDnumber() {
+        return dnumber;
     }
 
-    public void setDNUMBER(long DNUMBER) {
-        this.DNUMBER = DNUMBER;
+    public void setDnumber(String dnumber) {
+        this.dnumber = dnumber;
     }
 
-    public String getDNAME() {
-        return DNAME;
+    public String getDname() {
+        return dname;
     }
 
-    public void setDNAME(String DNAME) {
-        this.DNAME = DNAME;
+    public void setDname(String dname) {
+        this.dname = dname;
     }
 
-    public String getMGRSTARTDATE() {
-        return MGRSTARTDATE;
+    public String getMgrstartdate() {
+        return mgrstartdate;
     }
 
-    public void setMGRSTARTDATE(String MGRSTARTDATE) {
-        this.MGRSTARTDATE = MGRSTARTDATE;
+    public void setMgrstartdate(String mgrstartdate) {
+        this.mgrstartdate = mgrstartdate;
     }
 
-    public String getDLOCATION() {
-        return DLOCATION;
+    public String getDlocation() {
+        return dlocation;
     }
 
-    public void setDLOCATION(String DLOCATION) {
-        this.DLOCATION = DLOCATION;
+    public void setDlocation(String dlocation) {
+        this.dlocation = dlocation;
     }
 
-    public String getPNAME() {
-        return PNAME;
+    public String getPname() {
+        return pname;
     }
 
-    public void setPNAME(String PNAME) {
-        this.PNAME = PNAME;
+    public void setPname(String pname) {
+        this.pname = pname;
     }
 
-    public String getPLOCATION() {
-        return PLOCATION;
+    public String getPlocation() {
+        return plocation;
     }
 
-    public void setPLOCATION(String PLOCATION) {
-        this.PLOCATION = PLOCATION;
+    public void setPlocation(String plocation) {
+        this.plocation = plocation;
     }
 }
 
