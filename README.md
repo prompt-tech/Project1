@@ -31,6 +31,7 @@
 * hibernateDialect
 * TimeZone
 * SQL name
+* jQuery DTable
 
 
 # Screenshot
