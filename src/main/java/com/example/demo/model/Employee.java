@@ -10,7 +10,7 @@ public class Employee {
     private long id;
 
     @Column(name = "ssn")
-    private String ssn;
+    private Integer ssn;
 
     @Column(name = "fname")
     private String fname;
@@ -28,22 +28,22 @@ public class Employee {
     private String sex;
 
     @Column(name = "salary")
-    private String salary;
+    private Integer salary;
 
     @Column(name = "superssn")
-    private String superssn;
+    private Integer superssn;
 
     @Column(name = "dno")
-    private String dno;
+    private Integer dno;
 
     @Column(name = "pnumber")
-    private String pnumber;
+    private Integer pnumber;
 
     @Column(name = "hours")
-    private String hours;
+    private Integer hours;
 
     @Column(name = "dnumber")
-    private String dnumber;
+    private Integer dnumber;
 
     @Column(name = "dname")
     private String dname;
@@ -65,7 +65,7 @@ public class Employee {
     }
 
 
-    public Employee(String ssn, String fname, String lname, String bdate, String address, String sex, String salary, String superssn, String dno, String pnumber, String hours, String dnumber, String dname, String mgrstartdate, String dlocation, String pname, String plocation) {
+    public Employee(Integer ssn, String fname, String lname, String bdate, String address, String sex, Integer salary, Integer superssn, Integer dno, Integer pnumber, Integer hours, Integer dnumber, String dname, String mgrstartdate, String dlocation, String pname, String plocation) {
         super();
         this.ssn=ssn;
         this.fname=fname;
@@ -94,11 +94,11 @@ public class Employee {
         this.id = id;
     }
 
-    public String getSsn() {
+    public Integer getSsn() {
         return ssn;
     }
 
-    public void setSSN(String SSN) {
+    public void setSsn(Integer SSN) {
         this.ssn = ssn;
     }
 
@@ -106,7 +106,7 @@ public class Employee {
         return fname;
     }
 
-    public void setFNAME(String FNAME) {
+    public void setFname(String FNAME) {
         this.fname = fname;
     }
 
@@ -114,27 +114,27 @@ public class Employee {
         return lname;
     }
 
-    public void setLNAME(String LNAME) {
+    public void setLname(String LNAME) {
         this.lname = lname;
     }
 
-    public String getBDATE() {
+    public String getBdate() {
         return bdate;
     }
 
-    public void setBDATE(String BDATE) {
+    public void setBdate(String BDATE) {
         this.bdate = bdate;
     }
 
-    public String getADDRESS() {
+    public String getAddress() {
         return address;
     }
 
-    public void setADDRESS(String ADDRESS) {
+    public void setAddress(String ADDRESS) {
         this.address = address;
     }
 
-    public String getSEX() {
+    public String getSex() {
         return sex;
     }
 
@@ -142,51 +142,51 @@ public class Employee {
         this.sex = sex;
     }
 
-    public String getSalary() {
+    public Integer getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(Integer salary) {
         this.salary = salary;
     }
 
-    public String getSuperssn() {
+    public Integer getSuperssn() {
         return superssn;
     }
 
-    public void setSuperssn(String superssn) {
+    public void setSuperssn(Integer superssn) {
         this.superssn = superssn;
     }
 
-    public String getDno() {
+    public Integer getDno() {
         return dno;
     }
 
-    public void setDno(String dno) {
+    public void setDno(Integer dno) {
         this.dno = dno;
     }
 
-    public String getPnumber() {
+    public Integer getPnumber() {
         return pnumber;
     }
 
-    public void setPnumber(String pnumber) {
+    public void setPnumber(Integer pnumber) {
         this.pnumber = pnumber;
     }
 
-    public String getHours() {
+    public Integer getHours() {
         return hours;
     }
 
-    public void setHours(String hours) {
+    public void setHours(Integer hours) {
         this.hours = hours;
     }
 
-    public String getDnumber() {
+    public Integer getDnumber() {
         return dnumber;
     }
 
-    public void setDnumber(String dnumber) {
+    public void setDnumber(Integer dnumber) {
         this.dnumber = dnumber;
     }
 

@@ -21,7 +21,11 @@ $(document).ready( function () {
 				  { "mData": "mgrstartdate" },
 				  { "mData": "dlocation" },
 				  { "mData": "pname" },
-				  { "mData": "plocation" }
+				  { "mData": "plocation",
+				   render : function(mData) {
+				        return mData == '0' ? 'Not Active' : 'Active';
+				   }
+				}
 			]
 	 })
 });
