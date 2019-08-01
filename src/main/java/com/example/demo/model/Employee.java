@@ -230,6 +230,3 @@ public class Employee {
         this.plocation = plocation;
     }
 }
-
-
-

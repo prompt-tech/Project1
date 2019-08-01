@@ -5,5 +5,4 @@ import com.example.demo.model.Employee;
 public interface EmployeeService {
 
     public List<Employee> getAllEmployees();
-    public Employee getEmployeeById(long id);
 }

@@ -1,3 +1,5 @@
+// jQuery dataTable
+// Ajax data
 $(document).ready( function () {
 	 var table = $('#employeesTable').DataTable({
 			"sAjaxSource": "/employees",
@@ -29,31 +31,3 @@ $(document).ready( function () {
 			]
 	 })
 });
-// jQuery dataTable
-// Ajax data
-//$(document).ready(function () {
-//                            $('#employeesTable').DataTable( {
-//                             "ajax": {
-//                             url:"/employees"},
-//                                "columns": [
-//                                    { "data": "id" },
-//                                    { "mData": "SSN" },
-//                                    { "mData": "FNAME" },
-//                                    { "mData": "LNAME" },
-//                                    { "mData": "BDATE" },
-//                                    { "mData": "ADDRESS" },
-//                                    { "mData": "SEX" },
-//                                    { "mData": "SALARY" },
-//                                    { "mData": "SUPERSSN" },
-//                                    { "mData": "DNO" },
-//                                    { "mData": "PNUMBER" },
-//                                    { "mData": "HOURS" },
-//                                    { "mData": "DNUMBER" },
-//                                    { "mData": "DNAME"},
-//                                    { "mData": "MGRSTARTDATE" },
-//                                    { "mData": "DLOCATION" },
-//                                    { "mData": "PNAME" },
-//                                    { "mData": "PLOCATION"}
-//                                ]
-//                            } );
-//                });
