@@ -39,10 +39,7 @@ build/
 *~
 .#*
 .*.md.html
-
-### macOS ###
 .DS_Store
-
 .classpath
 .factorypath
 .gradle
