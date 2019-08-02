@@ -21,4 +21,5 @@ CREATE TABLE IF NOT EXISTS 'employee' (
     )
     ENGINE = InnoDB;
 
-INSERT INTO $employee(ssn, fname, lname, bdate, address, sex, salary, superssn, dno, pnumber, hours, dnumber, dname, mgrstartdate, dlocation, pname, plocation) values (110,'Donald','Oconnell','1959.2.7','YONGIN','M',2600,146,3,3388,25,3,'IT','2005.3.2','SEOUL','Y','SEOUL');
+INSERT INTO ${employee}(ssn, fname, lname, bdate, address, sex, salary, superssn, dno, pnumber, hours, dnumber, dname, mgrstartdate, dlocation, pname, plocation)
+ VALUES (110,'Donald','Oconnell','1959.2.7','YONGIN','M',2600,146,3,3388,25,3,'IT','2005.3.2','SEOUL','Y','SEOUL');
