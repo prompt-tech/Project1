@@ -15,6 +15,7 @@ $(document).ready( function () {
              }
          } );
      } );
+
 	 var table = $('#employeesTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
@@ -40,6 +41,13 @@ $(document).ready( function () {
 				  { "mData": "dlocation" },
 				  { "mData": "pname" },
 				  { "mData": "plocation"}
+			],
+			"dom": "Bfrtip",
+			"buttons": [
+			    'columnsToggle'
 			]
-	 })
+
+	 });
+
 });
+
