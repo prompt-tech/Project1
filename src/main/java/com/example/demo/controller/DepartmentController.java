@@ -5,10 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class EmployeeController {
+public class DepartmentController {
 
-    @RequestMapping(path="/employee", method=RequestMethod.GET)
-    public String goHome(){
-        return "index";
-    }
+    @RequestMapping(path="/department", method=RequestMethod.GET)
+    public String goHome() { return "department";}
 }
