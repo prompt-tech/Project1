@@ -11,4 +11,10 @@ public class EmployeeController {
     public String goHome(){
         return "index";
     }
+
+    @RequestMapping(path="/ViewEmployee", method=RequestMethod.GET)
+    public String ViewEmployee(){
+        return "ViewEmployee";
+    }
+
 }

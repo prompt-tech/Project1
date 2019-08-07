@@ -9,4 +9,7 @@ public class DepartmentController {
 
     @RequestMapping(path="/department", method=RequestMethod.GET)
     public String goHome() { return "department";}
+
+    @RequestMapping(path="/deptpage", method = RequestMethod.GET)
+    public String Select() {return "deptpage";}
 }

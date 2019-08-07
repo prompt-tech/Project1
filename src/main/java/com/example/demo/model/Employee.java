@@ -3,12 +3,10 @@ import javax.persistence.*;
 
 @Entity
 public class Employee {
-
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "id")
-//    private long id;
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private long id;
     @Column(name = "ssn")
     private Integer ssn;
 
@@ -36,29 +34,29 @@ public class Employee {
     @Column(name = "dno")
     private Integer dno;
 
-//    @Column(name = "pnumber")
-//    private Integer pnumber;
-//
-//    @Column(name = "hours")
-//    private Integer hours;
-//
-//    @Column(name = "dnumber")
-//    private Integer dnumber;
-//
-//    @Column(name = "dname")
-//    private String dname;
-//
-//    @Column(name = "mgrstartdate")
-//    private String mgrstartdate;
-//
-//    @Column(name = "dlocation")
-//    private String dlocation;
-//
-//    @Column(name = "pname")
-//    private String pname;
-//
-//    @Column(name = "plocation")
-//    private String plocation;
+    @Column(name = "pnumber")
+    private Integer pnumber;
+
+    @Column(name = "hours")
+    private Integer hours;
+
+    @Column(name = "dnumber")
+    private Integer dnumber;
+
+    @Column(name = "dname")
+    private String dname;
+
+    @Column(name = "mgrstartdate")
+    private String mgrstartdate;
+
+    @Column(name = "dlocation")
+    private String dlocation;
+
+    @Column(name = "pname")
+    private String pname;
+
+    @Column(name = "plocation")
+    private String plocation;
 
     public Employee() {
         super();
@@ -66,25 +64,33 @@ public class Employee {
 
 
     public Employee(Integer ssn, String fname, String lname, String bdate, String address, String sex, Integer salary, Integer superssn, Integer dno) {
-            super();
-            this.ssn=ssn;
-            this.fname=fname;
-            this.lname=lname;
-            this.bdate=bdate;
-            this.address=address;
-            this.sex=sex;
-            this.salary=salary;
-            this.superssn=superssn;
-            this.dno=dno;
+        super();
+        this.ssn=ssn;
+        this.fname=fname;
+        this.lname=lname;
+        this.bdate=bdate;
+        this.address=address;
+        this.sex=sex;
+        this.salary=salary;
+        this.superssn=superssn;
+        this.dno=dno;
+        this.pnumber=pnumber;
+        this.hours=hours;
+        this.dnumber=dnumber;
+        this.dname=dname;
+        this.mgrstartdate=mgrstartdate;
+        this.dlocation=dlocation;
+        this.pname=pname;
+        this.plocation=plocation;
     }
 
-//    public long getId() {
-//        return id;
-//    }
-//
-//    public void setId(long id) {
-//        this.id = id;
-//    }
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public Integer getSsn() {
         return ssn;
@@ -158,67 +164,67 @@ public class Employee {
         this.dno = dno;
     }
 
-//    public Integer getPnumber() {
-//        return pnumber;
-//    }
-//
-//    public void setPnumber(Integer pnumber) {
-//        this.pnumber = pnumber;
-//    }
-//
-//    public Integer getHours() {
-//        return hours;
-//    }
-//
-//    public void setHours(Integer hours) {
-//        this.hours = hours;
-//    }
-//
-//    public Integer getDnumber() {
-//        return dnumber;
-//    }
-//
-//    public void setDnumber(Integer dnumber) {
-//        this.dnumber = dnumber;
-//    }
-//
-//    public String getDname() {
-//        return dname;
-//    }
-//
-//    public void setDname(String dname) {
-//        this.dname = dname;
-//    }
-//
-//    public String getMgrstartdate() {
-//        return mgrstartdate;
-//    }
-//
-//    public void setMgrstartdate(String mgrstartdate) {
-//        this.mgrstartdate = mgrstartdate;
-//    }
-//
-//    public String getDlocation() {
-//        return dlocation;
-//    }
-//
-//    public void setDlocation(String dlocation) {
-//        this.dlocation = dlocation;
-//    }
-//
-//    public String getPname() {
-//        return pname;
-//    }
-//
-//    public void setPname(String pname) {
-//        this.pname = pname;
-//    }
-//
-//    public String getPlocation() {
-//        return plocation;
-//    }
-//
-//    public void setPlocation(String plocation) {
-//        this.plocation = plocation;
-//    }
+    public Integer getPnumber() {
+        return pnumber;
+    }
+
+    public void setPnumber(Integer pnumber) {
+        this.pnumber = pnumber;
+    }
+
+    public Integer getHours() {
+        return hours;
+    }
+
+    public void setHours(Integer hours) {
+        this.hours = hours;
+    }
+
+    public Integer getDnumber() {
+        return dnumber;
+    }
+
+    public void setDnumber(Integer dnumber) {
+        this.dnumber = dnumber;
+    }
+
+    public String getDname() {
+        return dname;
+    }
+
+    public void setDname(String dname) {
+        this.dname = dname;
+    }
+
+    public String getMgrstartdate() {
+        return mgrstartdate;
+    }
+
+    public void setMgrstartdate(String mgrstartdate) {
+        this.mgrstartdate = mgrstartdate;
+    }
+
+    public String getDlocation() {
+        return dlocation;
+    }
+
+    public void setDlocation(String dlocation) {
+        this.dlocation = dlocation;
+    }
+
+    public String getPname() {
+        return pname;
+    }
+
+    public void setPname(String pname) {
+        this.pname = pname;
+    }
+
+    public String getPlocation() {
+        return plocation;
+    }
+
+    public void setPlocation(String plocation) {
+        this.plocation = plocation;
+    }
 }

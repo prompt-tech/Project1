@@ -32,14 +32,14 @@ $(document).ready( function () {
 				  { "mData": "salary" },
 				  { "mData": "superssn" },
 				  { "mData": "dno" },
-//				  { "mData": "pnumber" },
-//				  { "mData": "hours" },
-//				  { "mData": "dnumber" },
-//				  { "mData": "dname"},
-//				  { "mData": "mgrstartdate" },
-//				  { "mData": "dlocation" },
-//				  { "mData": "pname" },
-//				  { "mData": "plocation"}
+				  { "mData": "pnumber" },
+				  { "mData": "hours" },
+				  { "mData": "dnumber" },
+				  { "mData": "dname"},
+				  { "mData": "mgrstartdate" },
+				  { "mData": "dlocation" },
+				  { "mData": "pname" },
+				  { "mData": "plocation"}
 			],
 			"dom": "Bfrtip",
 			"buttons": [
