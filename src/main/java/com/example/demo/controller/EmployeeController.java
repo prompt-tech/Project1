@@ -11,4 +11,13 @@ public class EmployeeController {
     public String goHome(){
         return "index";
     }
+
+    @RequestMapping(path="/employee", method = RequestMethod.GET)
+    public String goEmployee() {return "employee";}
+
+    @RequestMapping(path="/department", method=RequestMethod.GET)
+    public String goDepartment() { return "department";}
+
+    @RequestMapping(path="/deptpage", method = RequestMethod.GET)
+    public String goDept() {return "deptpage";}
 }

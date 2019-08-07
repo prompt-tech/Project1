@@ -1,8 +1,8 @@
 // jQuery dataTable
 // Ajax data
 $(document).ready( function () {
-     $('#employeesTable thead tr').clone(true).appendTo( '#employeesTable thead' );
-     $('#employeesTable thead tr:eq(1) th').each( function (i) {
+     $('#departmentsTable thead tr').clone(true).appendTo( '#departmentsTable thead' );
+     $('#departmentsTable thead tr:eq(1) th').each( function (i) {
          var title = $(this).text();
          $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
 
@@ -16,36 +16,24 @@ $(document).ready( function () {
          } );
      } );
 
-	 var table = $('#employeesTable').DataTable({
+	 var table = $('#departmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
 			"sAjaxSource": "/employees",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [
-			      { "mData": "id"},
-		          { "mData": "ssn" },
-				  { "mData": "fname" },
-				  { "mData": "lname" },
-				  { "mData": "bdate" },
-				  { "mData": "address" },
-				  { "mData": "sex" },
-				  { "mData": "salary" },
-				  { "mData": "superssn" },
-				  { "mData": "dno" },
-				  { "mData": "pnumber" },
-				  { "mData": "hours" },
 				  { "mData": "dnumber" },
 				  { "mData": "dname"},
 				  { "mData": "mgrstartdate" },
-				  { "mData": "dlocation" },
-				  { "mData": "pname" },
-				  { "mData": "plocation"}
+				  { "mData": "dlocation" }
+
 			],
 			"dom": "Bfrtip",
 			"buttons": [
 			    'columnsToggle'
 			]
-	 });
-});
 
+	 });
+
+});
