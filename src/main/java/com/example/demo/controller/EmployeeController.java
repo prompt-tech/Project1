@@ -20,4 +20,25 @@ public class EmployeeController {
 
     @RequestMapping(path="/deptpage", method = RequestMethod.GET)
     public String goDept() {return "deptpage";}
+
+    @RequestMapping(path="/ITPage", method = RequestMethod.GET)
+    public String ITDept() {return "ITDept";}
+
+    @RequestMapping(path="/SalesPage", method = RequestMethod.GET)
+    public String SalesDept() {return "SalesDept";}
+
+    @RequestMapping(path="/AdminDept", method = RequestMethod.GET)
+    public String AdminDept() {return "AdminDept";}
+
+    @RequestMapping(path="/MarketingDept", method = RequestMethod.GET)
+    public String MarketingDept() {return "MarketingDept";}
+
+    @RequestMapping(path="/HRDept", method = RequestMethod.GET)
+    public String HRDept() {return "HRDept";}
+
+    @RequestMapping(path="/ShippingDept", method = RequestMethod.GET)
+    public String ShippingDept() {return "ShippingDept";}
+
+    @RequestMapping(path="/FinanceDept", method = RequestMethod.GET)
+    public String FinanceDept() {return "FinanceDept";}
 }

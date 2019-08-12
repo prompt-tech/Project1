@@ -10,21 +10,31 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="/js/admindeptdataTable.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
-    <script src="/js/datatable.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.colVis.min.js"></script>
 </head>
 <body>
-<h1>Choose a department</h1>
-<ul>
-    <a href="ITPage"><li>IT</li></a>
-    <a href="SalesPage"><li>Sales</li></a>
-    <a href="AdminDept"><li>Administration</li></a>
-    <a href="MarketingDept"><li>Marketing</li></a>
-    <a href="HRDept"><li>Human Resource</li></a>
-    <a href="ShippingDept"><li>Shipping</li></a>
-    <a href="FinanceDept"><li>Finance</li></a>
-</ul>
+<h1>Administration Departments Table</h1>
+<table id="admindepartmentsTable" class="display">
+
+    <!-- Header Table -->
+    <thead>
+    <tr>
+        <th>FNAME</th>
+        <th>LNAME</th>
+        <th>SALARY</th>
+    </tr>
+    </thead>
+    <!-- Footer Table -->
+    <tfoot>
+    <tr>
+        <th>FNAME</th>
+        <th>LNAME</th>
+        <th>SALARY</th>
+    </tr>
+    </tfoot>
+</table>
 </body>
 </html>
