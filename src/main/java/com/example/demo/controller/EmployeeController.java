@@ -21,10 +21,10 @@ public class EmployeeController {
     @RequestMapping(path="/deptpage", method = RequestMethod.GET)
     public String goDept() {return "deptpage";}
 
-    @RequestMapping(path="/ITPage", method = RequestMethod.GET)
+    @RequestMapping(path="/ITDept", method = RequestMethod.GET)
     public String ITDept() {return "ITDept";}
 
-    @RequestMapping(path="/SalesPage", method = RequestMethod.GET)
+    @RequestMapping(path="/SalesDept", method = RequestMethod.GET)
     public String SalesDept() {return "SalesDept";}
 
     @RequestMapping(path="/AdminDept", method = RequestMethod.GET)

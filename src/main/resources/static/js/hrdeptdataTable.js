@@ -19,7 +19,7 @@ $(document).ready( function () {
 	 var table = $('#hrdepartmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
-			"sAjaxSource": "/employees/HRDept",
+			"sAjaxSource": "/employees/hr",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [

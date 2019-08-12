@@ -19,7 +19,7 @@ $(document).ready( function () {
 	 var table = $('#marketingdepartmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
-			"sAjaxSource": "/employees/sales",
+			"sAjaxSource": "/employees/marketing",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [

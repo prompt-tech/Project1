@@ -19,7 +19,7 @@ $(document).ready( function () {
 	 var table = $('#financedepartmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
-			"sAjaxSource": "/employees/FinanceDept",
+			"sAjaxSource": "/employees/finance",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [

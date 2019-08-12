@@ -19,7 +19,7 @@ $(document).ready( function () {
 	 var table = $('#shippingdepartmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
-			"sAjaxSource": "/employees/ShippingDept",
+			"sAjaxSource": "/employees/shipping",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [
