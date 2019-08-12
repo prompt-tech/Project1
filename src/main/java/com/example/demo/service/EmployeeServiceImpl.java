@@ -7,10 +7,8 @@ import com.example.demo.repository.EmployeeRepository;
 
 @Service("employeeService")
 public class EmployeeServiceImpl implements EmployeeService {
-
     @Autowired
     private EmployeeRepository employeeRepository;
-
     @Override
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
