@@ -13,4 +13,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
     }
+
+    public List<Employee> getItEmployees(){
+        return employeeRepository.findByDname("IT");
+    }
 }
