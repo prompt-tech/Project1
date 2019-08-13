@@ -25,8 +25,8 @@ $(document).ready( function () {
 			"aoColumns": [
 				  { "mData": "fname" },
 				  { "mData": "lname"},
-				  { "mData": "salary" }
-
+				  { "mData": "salary" },
+				  { "mData": "pnumber" }
 			],
 			"dom": "Bfrtip",
 			"buttons": [

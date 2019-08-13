@@ -26,7 +26,6 @@ $(document).ready( function () {
 				  { "mData": "fname" },
 				  { "mData": "lname"},
 				  { "mData": "salary" }
-
 			],
 			"dom": "Bfrtip",
 			"buttons": [
