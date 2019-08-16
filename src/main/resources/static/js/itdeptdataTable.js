@@ -19,7 +19,7 @@ $(document).ready( function () {
 	 var table = $('#itdepartmentsTable').DataTable({
 	    orderCellsTop: true,
 	    fixedHeader: true,
-			"sAjaxSource": "/employees/it",
+			"sAjaxSource": "/employees/test",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [
@@ -32,5 +32,7 @@ $(document).ready( function () {
 			"buttons": [
 			    'columnsToggle'
 			]
+
 	 });
+
 });

@@ -1,5 +1,8 @@
 package com.example.demo.controller;
 import java.util.List;
+import java.util.Map;
+
+import com.example.demo.model.CustomEmployee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Employee;
 import com.example.demo.service.EmployeeService;
+
 
 @RestController
 public class EmployeeRestfulController {
@@ -39,5 +43,9 @@ public class EmployeeRestfulController {
 
     @RequestMapping(path="employees/finance", method = RequestMethod.GET)
     public List<Employee> getFinanceEmployees() {return employeeService.getFinanceEmployees();}
+
+    @RequestMapping(path="employees/test", method = RequestMethod.GET)
+    public List<CustomEmployee> gettest() {return employeeService.gettest();}
+
 
 }

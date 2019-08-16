@@ -33,4 +33,8 @@ $(document).ready( function () {
 			    'columnsToggle'
 			]
 	 });
+	 table
+	      .column(0)
+	      .data()
+	      .unique();
 });

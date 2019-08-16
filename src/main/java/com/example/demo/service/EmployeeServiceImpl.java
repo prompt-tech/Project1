@@ -1,5 +1,7 @@
 package com.example.demo.service;
-import java.util.List;
+import java.util.*;
+
+import com.example.demo.model.CustomEmployee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.demo.model.Employee;
@@ -29,4 +31,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     public List<Employee> getShippingEmployees() {return employeeRepository.findByDname("Shipping");}
 
     public List<Employee> getFinanceEmployees() {return employeeRepository.findByDname("Finance");}
+
+    public List <CustomEmployee>   gettest() {return employeeRepository.getUserEntityFullNameByDname("IT");}
+
 }
