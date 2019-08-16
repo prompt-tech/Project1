@@ -64,7 +64,6 @@ public class Employee {
         super();
     }
 
-
     public Employee(Integer ssn, String fname, String lname, String bdate, String address, String sex, Integer salary, Integer superssn, Integer dno, Integer pnumber, Integer hours, Integer dnumber, String dname, String mgrstartdate, String dlocation, String pname, String plocation) {
         super();
         this.ssn=ssn;
