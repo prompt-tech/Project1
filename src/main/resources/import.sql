@@ -1,4 +1,3 @@
-
 INSERT INTO employee(ssn, fname, lname, bdate, address, sex, salary, superssn, dno, pnumber, hours, dnumber, dname, mgrstartdate, dlocation, pname, plocation) values (110,'Donald','Oconnell','1959.2.7','YONGIN','M',2600,146,3,3388,25,3,'IT','2005.3.2','SEOUL','Y','SEOUL');
 INSERT INTO employee(ssn, fname, lname, bdate, ADDRESS, SEX, SALARY, SUPERSSN, DNO, PNUMBER, HOURS, DNUMBER, DNAME, MGRSTARTDATE, DLOCATION, PNAME, PLOCATION) values (116,'Hermann','Baer','1961.2.6','NEW YORK','M',10000,146,2140,3388,22,2140,'Shipping','2010.1.16','CHICAGO','Y','SEOUL');
 INSERT INTO employee(ssn, fname, lname, BDATE, ADDRESS, SEX, SALARY, SUPERSSN, DNO, PNUMBER, HOURS, DNUMBER, DNAME, MGRSTARTDATE, DLOCATION, PNAME, PLOCATION) values (146,'Jonghoon','Chun','1975.4.6','YONGIN','M',25000,148,2000,3377,13,2000,'Administration','1984.10.11','YONGIN','Domain Registry ','MIAMI');

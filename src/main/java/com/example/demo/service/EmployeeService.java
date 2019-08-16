@@ -7,12 +7,11 @@ import com.example.demo.model.Employee;
 
 public interface EmployeeService {
     public List<Employee> getAllEmployees();
-    public List<Employee> getItEmployees();
-    public List<Employee> getSalesEmployees();
+    public List <CustomEmployee> getITEmployees();
+    public List<CustomEmployee> getSalesEmployees();
     public List<Employee> getAdminEmployees();
-    public List<Employee> getMarketingEmployees();
-    public List<Employee> getHREmployees();
-    public List<Employee> getShippingEmployees();
-    public List<Employee> getFinanceEmployees();
-    public List <CustomEmployee>  gettest();
+    public List<CustomEmployee> getMarketingEmployees();
+    public List<CustomEmployee> getHREmployees();
+    public List<CustomEmployee> getShippingEmployees();
+    public List<CustomEmployee> getFinanceEmployees();
 }

@@ -24,28 +24,26 @@ public class EmployeeRestfulController {
     }
 
     @RequestMapping(path="employees/it", method=RequestMethod.GET)
-    public List<Employee> getItEmployees() {return employeeService.getItEmployees();}
+    public List<CustomEmployee> getITEmployees() {return employeeService.getITEmployees();}
 
     @RequestMapping(path = "employees/sales", method = RequestMethod.GET)
-    public List<Employee> getSalesEmployees() {return employeeService.getSalesEmployees();}
+    public List<CustomEmployee> getSalesEmployees() {return employeeService.getSalesEmployees();}
 
     @RequestMapping(path="employees/admin", method = RequestMethod.GET)
     public List<Employee> getAdminEmployees() {return employeeService.getAdminEmployees();}
 
     @RequestMapping(path="employees/marketing", method = RequestMethod.GET)
-    public List<Employee> getMarketingEmployees() {return employeeService.getMarketingEmployees();}
+    public List<CustomEmployee> getMarketingEmployees() {return employeeService.getMarketingEmployees();}
 
     @RequestMapping(path="employees/hr", method = RequestMethod.GET)
-    public List<Employee> getHREmployees() {return employeeService.getHREmployees();}
+    public List<CustomEmployee> getHREmployees() {return employeeService.getHREmployees();}
 
     @RequestMapping(path="employees/shipping", method = RequestMethod.GET)
-    public List<Employee> getShippingEmployees() {return employeeService.getShippingEmployees();}
+    public List<CustomEmployee> getShippingEmployees() {return employeeService.getShippingEmployees();}
 
     @RequestMapping(path="employees/finance", method = RequestMethod.GET)
-    public List<Employee> getFinanceEmployees() {return employeeService.getFinanceEmployees();}
+    public List<CustomEmployee> getFinanceEmployees() {return employeeService.getFinanceEmployees();}
 
-    @RequestMapping(path="employees/test", method = RequestMethod.GET)
-    public List<CustomEmployee> gettest() {return employeeService.gettest();}
 
 
 }
