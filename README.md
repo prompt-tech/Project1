@@ -38,8 +38,8 @@
 ![badge](./img/SearchEngine.png)
 
 
-# API Documentation
-[Click here](RESTFULAPI.md) for API documentation
+# RESTFUL API Documentation
+[Click here](RESTFULAPI.md) for RESTFUL API documentation
 
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 The MIT License
