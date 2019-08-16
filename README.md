@@ -39,7 +39,7 @@
 
 
 # API Documentation
-[Click here](API.md) for API documentation
+[Click here](RESTFULAPI.md) for API documentation
 
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 The MIT License
