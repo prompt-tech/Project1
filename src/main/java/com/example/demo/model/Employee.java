@@ -233,30 +233,5 @@ public class Employee
 
     public void setPlocation(String plocation) {
         this.plocation = plocation;
-
     }
-
-//    public String toString() {
-//        return "Employee{" +
-//                "id=" + id +
-//                ", ssn=" + ssn + '\'' +
-//                ", fname=" + fname + '\'' +
-//                ", lname=" + lname + '\'' +
-//                ", bdate=" + bdate + '\'' +
-//                ", address=" + address + '\'' +
-//                ", sex=" + sex + '\'' +
-//                ", salary=" + salary + '\'' +
-//                ", superssn=" + superssn + '\'' +
-//                ", dno=" + dno + '\'' +
-//                ", pnumber=" + pnumber + '\'' +
-//                ", hours=" + hours + '\'' +
-//                ", dnumber=" + dnumber + '\'' +
-//                ", dname=" + dname + '\'' +
-//                ", mgrstartdate=" + mgrstartdate + '\'' +
-//                ", dlocation=" + dlocation + '\'' +
-//                ", pname=" + pname + '\'' +
-//                ", plocation=" + plocation + '\'' +
-//                '}';
-
-
 }

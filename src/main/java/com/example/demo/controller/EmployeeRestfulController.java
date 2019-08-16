@@ -43,7 +43,4 @@ public class EmployeeRestfulController {
 
     @RequestMapping(path="employees/finance", method = RequestMethod.GET)
     public List<CustomEmployee> getFinanceEmployees() {return employeeService.getFinanceEmployees();}
-
-
-
 }
