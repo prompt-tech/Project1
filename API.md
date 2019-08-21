@@ -1,4 +1,4 @@
-API Documentation
+REsTful API Documentation
 =================
 
 This API documentation has been tested using [Postman](https://www.getpostman.com/).
